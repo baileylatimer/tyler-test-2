@@ -19,6 +19,23 @@
   }
 }
 
+.mb-8 {
+  margin-bottom: 2em;
+}
+
+
+.my-4 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.mb-4 {
+  margin-bottom: 1em;
+}
+
+h3 {
+  line-height: 1em !important;
+}
+
 body {
   background-color: var(--color-bg)
 }
@@ -47,7 +64,8 @@ h2 {
 }
 }
 h3 {
-  @apply text-lg;
+  font-size: 2em;
+  margin-top: 1em;
 }
 a {
   @apply text-blue-600;

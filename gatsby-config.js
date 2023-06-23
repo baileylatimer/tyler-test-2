@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `STUDIO–RO®`,
-    description: `STUDIO–RO is an award-winning dance practice working across a mix of disciplines that includes Heels, Hip hop, ballet, & Flaminco.`,
-    author: `@latimer2k`,
+    title: `Tyler Gordon`,
+    description: `Co-Founder of 0ff & 0x I Digital Marketing I E-Commerce I Shopify Web Design`,
+    author: `@tyler`,
   },
   flags: {
     THE_FLAG: false

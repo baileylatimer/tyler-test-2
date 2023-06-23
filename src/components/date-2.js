@@ -4,7 +4,7 @@ class Timezone2 extends React.Component {
 
   state={
 
-    curTime : new Date().toLocaleTimeString(['en-GB'], { timeZone: 'Europe/Madrid', hour: '2-digit', minute: '2-digit' }),
+    curTime: new Date().toLocaleTimeString(['en-US'], { timeZone: 'America/Los_Angeles', hour: '2-digit', minute: '2-digit', hour12: true }),
 
   }
 
@@ -14,7 +14,7 @@ class Timezone2 extends React.Component {
 
 
 
-        <span className='ml-4'>Barcelona {this.state.curTime}</span>
+        <span className='ml-4'>Los Angeles {this.state.curTime}</span>
 
 
 

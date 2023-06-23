@@ -58,6 +58,8 @@ function Header({ siteTitle }) {
         </div>
       </div>
       <div className="hidden lg:flex font-base">
+        <Timezone />
+        <Timezone2 />
 
       </div>
     </nav>

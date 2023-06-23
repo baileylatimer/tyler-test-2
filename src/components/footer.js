@@ -8,11 +8,6 @@ const PageHeader = props => (
     <a href="https://www.linkedin.com/in/tylergorrdon/">Linkedin</a>
     <a className="ml-4" href="/contact">Contact</a>
   </div>
-
-
-
-  
-
 </footer>
 );
 

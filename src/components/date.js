@@ -1,13 +1,13 @@
 import React from 'react';
 
 class Timezone extends React.Component {
-
-  state={
-    curTime : new Date().toLocaleTimeString(['en-GB'], { timeZone: 'America/Los_Angeles', hour: '2-digit', minute: '2-digit' }),
+  state = {
+    curTime: new Date().toLocaleTimeString(['en-US'], { timeZone: 'America/Denver', hour: '2-digit', minute: '2-digit', hour12: true }),
   }
-  render(){
+
+  render() {
     return (
-        <span>San Diego {this.state.curTime}</span>
+      <span>Provo {this.state.curTime}</span>
     );
   }
 }
